@@ -48,7 +48,7 @@ Actual time needed to complete: 1:10 hours
 
 Number and name of feature: Skills and Experience Section
 
-Estimate of time needed to complete: 2 hours
+Estimate of time needed to complete: 1 hours
 
 Start time: 1:30
 
@@ -62,12 +62,12 @@ Actual time needed to complete: :30 hours
 
 Number and name of feature: Personalize
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 2:10
 
-Finish time: _____
+Finish time: 2:50
 
-Actual time needed to complete: _____
+Actual time needed to complete: 0:40
 
 ```
