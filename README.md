@@ -10,9 +10,9 @@ Estimate of time needed to complete: 2 hours
 
 Start time: 14:00
 
-Finish time: 15:00
+Finish time: 15:30
 
-Actual time needed to complete: 1:00 hours
+Actual time needed to complete: 1:30 hours
 
 ```
 
@@ -38,9 +38,9 @@ Estimate of time needed to complete: 2 hours
 
 Start time: 0:20
 
-Finish time: 1:00
+Finish time: 1:30
 
-Actual time needed to complete: :40 hours
+Actual time needed to complete: 1:10 hours
 
 ```
 
@@ -48,13 +48,13 @@ Actual time needed to complete: :40 hours
 
 Number and name of feature: Skills and Experience Section
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 hours
 
-Start time: _____
+Start time: 1:30
 
-Finish time: _____
+Finish time: 2:00
 
-Actual time needed to complete: _____
+Actual time needed to complete: :30 hours
 
 ```
 
