@@ -34,13 +34,13 @@ Actual time needed to complete: 2:20 hours
 
 Number and name of feature: Projects Section
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 hours
 
-Start time: _____
+Start time: 0:20
 
-Finish time: _____
+Finish time: 1:00
 
-Actual time needed to complete: _____
+Actual time needed to complete: :40 hours
 
 ```
 
