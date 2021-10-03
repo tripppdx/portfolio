@@ -8,7 +8,6 @@ import About from "./components/About";
 import Home from "./components/Home";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -19,27 +18,13 @@ class App extends Component {
   }
 
   applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
-  }
-
-  swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  }
+  };
 
   componentDidMount = () => {
     this.loadSharedData();
@@ -47,7 +32,7 @@ class App extends Component {
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
-  }
+  };
 
   loadResumeFromPath = (path) => {
     $.ajax({
@@ -61,7 +46,7 @@ class App extends Component {
         alert(err);
       },
     });
-  }
+  };
 
   loadSharedData = () => {
     $.ajax({
@@ -76,7 +61,7 @@ class App extends Component {
         alert(err);
       },
     });
-  }
+  };
 
   render() {
     return (
@@ -96,10 +81,7 @@ class App extends Component {
             />
           </Route>
         </Switch>
-        <Footer 
-          sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
-        />  
+        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </Router>
     );
   }

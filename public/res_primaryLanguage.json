@@ -81,28 +81,41 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "Consultant",
+      "title": "Electrical Engineer",
+      "years": "2006 - present",
+      "mainTech": ["Power Systems"],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "AutoCAD",
+        "Microstation",
+        "Revit",
+        "P Spice",
+        "NFPA Standards",
+        "PLC"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "Target Corporation",
+      "title": "Unix Systems Engineer",
+      "years": "2005 - 2006",
+      "mainTech": ["Unix / Linux"],
+      "technologies": ["BASH", "ZSH", "PERL", "AIX", "RedHat", "SQL", "Oracle"]
+    },
+    {
+      "company": "IBM",
+      "title": "Staff Engineer",
+      "years": "2000 - 2004",
+      "mainTech": ["C / C++"],
+      "technologies": [
+        "C",
+        "C++",
+        "OOP",
+        "Microcontrollers",
+        "JTAG",
+        "Assembly",
+        "Microcode",
+        "RTOS"
+      ]
     }
   ]
 }
